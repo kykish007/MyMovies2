@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Movies 2</string>
+    <string name="description_poster">Постер к фильму</string>
+    <string name="text_view_sort_top_rated_description">по популярности</string>
+    <string name="text_view_sort_popularity_text">по рейтингу</string>
+    <string name="toast_add_favourite_text">Добавлено в избранное</string>
+    <string name="toast_delete_faurite_text">Удалено из избранного</string>
+    <string name="item_main">Главная</string>
+    <string name="item_favourite">Избранное</string>
+    <string name="description_play">Запустить трейлер</string>
+    <string name="text_view_label_text">Название:</string>
+    <string name="text_view_orig_title_text">Оригинальное название:</string>
+    <string name="text_view_label_rating_text">Рейтинг</string>
+    <string name="text_view_label_realese_text">Дата релиза:</string>
+    <string name="text_view_label_overview_text">Описание:</string>
+    <string name="big_poster_description">Постер</string>
+    <string name="add_to_favourite_description">Добавить в избранное</string>
+</resources>
