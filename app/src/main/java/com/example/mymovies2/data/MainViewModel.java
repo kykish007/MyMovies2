@@ -13,8 +13,8 @@ import java.util.concurrent.ExecutionException;
 public class MainViewModel extends AndroidViewModel {
 
     private static MovieDatabase database;
-    private LiveData<List<Movie>> movies;
-    private LiveData<List<FavouriteMovie>> favouriteMovies;
+    private final LiveData<List<Movie>> movies;
+    private final LiveData<List<FavouriteMovie>> favouriteMovies;
 
     public LiveData<List<Movie>> getMovies() {
         return movies;

@@ -3,6 +3,7 @@ package com.example.mymovies2;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
     private RecyclerView recyclerViewPosters;
     private MovieAdapter movieAdapter;
-    private Switch aSwitchSort;
+    private SwitchCompat aSwitchSort;
     private TextView textViewTopRated;
     private TextView textViewPopularity;
     private ProgressBar progressBarLoading;

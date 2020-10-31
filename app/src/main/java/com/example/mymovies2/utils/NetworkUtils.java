@@ -136,7 +136,7 @@ public class NetworkUtils {
 
     public static class JSONLoader extends AsyncTaskLoader<JSONObject> {
 
-        private Bundle bundle;
+        private final Bundle bundle;
         private OnStartLoadingListener onStartLoadingListener;
 
         public void setOnStartLoadingListener(OnStartLoadingListener onStartLoadingListener) {

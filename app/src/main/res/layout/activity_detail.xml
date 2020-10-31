@@ -22,7 +22,6 @@
         android:contentDescription="@string/big_poster_description" />
 
     <include
-        android:id="@+id/movieInfo"
         layout="@layout/movie_info"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
